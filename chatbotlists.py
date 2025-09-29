@@ -1,0 +1,5 @@
+greetings = ["hello", "hi", "hey", "greetings", "good morning", "good afternoon", "good evening"]
+how_are_you_questions = ["how are you", "how's it going", "how do you do", "what's up", "how have you been", "how's everything", "how's life", "wassup"]
+farewell = ["bye", "goodbye", "see you later", "take care", "farewell"]
+thanks = ["thanks", "thank you", "much appreciated", "thanks a lot", "thank you very much"]
+greeting_responses = ["Hello!", "Hi there!", "Hey!", "Greetings!"]
