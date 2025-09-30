@@ -22,6 +22,7 @@ body {
     margin: 0;
     padding: 0;
     }
+</style>
 <h1>Chat with the AI</h1>
 <form method=post>
   <input name=user_input autofocus>"
