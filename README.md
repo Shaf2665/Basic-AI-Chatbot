@@ -16,19 +16,6 @@ A beginner-friendly AI chatbot designed for easy setup and development. It comes
 - ⚠️ Important: Do not hardcode your API key directly into the source code. Use environment variables for security.
 - Run bot.py to start the chatbot.
 
-## 🤝 Contributing
-We welcome contributions from developers of all skill levels! Here's how you can get involved:
-- Fork the repository.
-- Clone your fork to your local machine.
-- Create a new branch for your feature or fix:
- ```git checkout -b feature-name```
-- Make your changes and commit them:
-```git commit -m "Add feature or fix"```
-- Push to your fork:
-```git push origin feature-name```
-- Open a pull request on the original repository.
-Please follow best practices for code quality and include clear commit messages. If you're adding a new feature, consider updating the README as well.
-
 
 ## 🌐 Web Chatbot (Flask)
 
@@ -65,6 +52,19 @@ You can now run the chatbot as a web app using Flask:
 - Simple web interface for chatting with the AI.
 - Handles greetings, farewells, thanks, and “how are you” questions.
 - Uses Gemini AI for other responses.
+
+## 🤝 Contributing
+We welcome contributions from developers of all skill levels! Here's how you can get involved:
+- Fork the repository.
+- Clone your fork to your local machine.
+- Create a new branch for your feature or fix:
+ ```git checkout -b feature-name```
+- Make your changes and commit them:
+```git commit -m "Add feature or fix"```
+- Push to your fork:
+```git push origin feature-name```
+- Open a pull request on the original repository.
+Please follow best practices for code quality and include clear commit messages. If you're adding a new feature, consider updating the README as well.
 
 ## 📄 License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
