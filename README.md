@@ -12,7 +12,7 @@ A beginner-friendly AI chatbot designed for easy setup and development. It comes
 - Clone the repository.
 - Create a .env file in the root directory.
 - Add your Gemini API key to the .env file:
--  **GEMINI_API_KEY=your_api_key_here**
+```GEMINI_API_KEY=your_api_key_here```
 - ⚠️ Important: Do not hardcode your API key directly into the source code. Use environment variables for security.
 - Run bot.py to start the chatbot.
 
