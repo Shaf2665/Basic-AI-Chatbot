@@ -15,6 +15,13 @@ app = Flask(__name__)
 HTML="""
 <!doctype html>
 <title>AI Chatbot</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    }
 <h1>Chat with the AI</h1>
 <form method=post>
   <input name=user_input autofocus>"
