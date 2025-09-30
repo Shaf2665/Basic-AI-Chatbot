@@ -21,11 +21,11 @@ We welcome contributions from developers of all skill levels! Here's how you can
 - Fork the repository.
 - Clone your fork to your local machine.
 - Create a new branch for your feature or fix:
-- **git checkout -b feature-name**
+ ```git checkout -b feature-name```
 - Make your changes and commit them:
-- **git commit -m "Add feature or fix"**
+```git commit -m "Add feature or fix"```
 - Push to your fork:
-- **git push origin feature-name**
+```git push origin feature-name```
 - Open a pull request on the original repository.
 Please follow best practices for code quality and include clear commit messages. If you're adding a new feature, consider updating the README as well.
 
