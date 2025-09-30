@@ -30,6 +30,42 @@ We welcome contributions from developers of all skill levels! Here's how you can
 Please follow best practices for code quality and include clear commit messages. If you're adding a new feature, consider updating the README as well.
 
 
+## 🌐 Web Chatbot (Flask)
+
+You can now run the chatbot as a web app using Flask:
+
+### How to Run the Web Chatbot
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   pip install flask
+   ```
+
+2. **Set your Gemini API key:**
+   - Create a `.env` file in the project root.
+   - Add your API key:
+     ```
+     GEMINI_API_KEY=your_api_key_here
+     ```
+
+3. **Start the web server:**
+   ```bash
+   python app.py
+   ```
+   - If port 5000 is busy, change the port in `app.py`:
+     ```python
+     app.run(debug=True, port=5001)
+     ```
+
+4. **Open your browser:**
+   - Go to `http://localhost:5000` (or the port you chose).
+
+### Features
+- Simple web interface for chatting with the AI.
+- Handles greetings, farewells, thanks, and “how are you” questions.
+- Uses Gemini AI for other responses.
+
 ## 📄 License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
 
