@@ -28,7 +28,7 @@ You can now run the chatbot as a web app using Flask:
    pip install -r requirements.txt
    pip install flask
    ```
-Ignore this step if you have already insttalled requirements.txt
+Ignore this step if you have already installed requirements.txt
 
 
 2. **Set your Gemini API key:**
