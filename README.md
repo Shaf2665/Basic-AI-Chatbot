@@ -28,6 +28,8 @@ You can now run the chatbot as a web app using Flask:
    pip install -r requirements.txt
    pip install flask
    ```
+Ignore this step if you have already insttalled requirements.txt
+
 
 2. **Set your Gemini API key:**
    - Create a `.env` file in the project root.
@@ -35,6 +37,7 @@ You can now run the chatbot as a web app using Flask:
      ```
      GEMINI_API_KEY=your_api_key_here
      ```
+Ignore this step if you had already created a .env file and set the API key
 
 3. **Start the web server:**
    ```bash
